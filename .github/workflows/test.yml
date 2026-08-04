@@ -15,7 +15,7 @@ jobs:
         run: echo "Build on GitHub-hosted runner"
 
   test:
-    runs-on: [self-hosted, dev]
+    runs-on: [self-hoste, de]
     steps:
       - name: Checkout
         uses: actions/checkout@v4
